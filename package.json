@@ -1,9 +1,12 @@
 {
   "name": "updatedependency",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "description": "A cli to update package.json disrespect SemVer.",
   "main": "index.mjs",
+  "bin": {
+    "updatedependency": "index.mjs"
+  },
   "scripts": {
     "start": "zx index.mjs",
     "test": "zx index.mjs"
