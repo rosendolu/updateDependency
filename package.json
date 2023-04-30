@@ -1,0 +1,32 @@
+{
+  "name": "updatedependency",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A cli to update package.json disrespect SemVer.",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "zx index.mjs",
+    "test": "zx index.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rosendolu/updateDependency.git"
+  },
+  "keywords": [
+    "npm",
+    "update"
+  ],
+  "author": "rosendo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rosendolu/updateDependency/issues"
+  },
+  "homepage": "https://github.com/rosendolu/updateDependency#readme",
+  "dependencies": {
+    "zx": "^7.2.1"
+  },
+  "devDependencies": {
+    "@koa/cors": "4.0.0",
+    "prettier": "^2.8.8"
+  }
+}
