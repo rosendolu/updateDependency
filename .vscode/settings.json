@@ -9,7 +9,7 @@
   },
   "cSpell.language": "en",
   "emmet.excludeLanguages": ["markdown", "javascript", "typescript"],
-  "cSpell.words": ["icappstore"],
+  "cSpell.words": ["icappstore", "updatedependency"],
   "editor.guides.bracketPairs": "active",
   "editor.guides.bracketPairsHorizontal": "active"
 }

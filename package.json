@@ -4,6 +4,9 @@
   "type": "module",
   "description": "A cli to update package.json disrespect SemVer.",
   "main": "index.mjs",
+  "bin": {
+    "updatedependency": "index.mjs"
+  },
   "scripts": {
     "start": "zx index.mjs",
     "test": "zx index.mjs"
