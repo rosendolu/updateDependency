@@ -12,7 +12,13 @@ npm i -g zx
 
 ## Usage
 
-Global install
+**Recommend** 👍👍👍
+
+```sh
+npx updatedependency
+```
+
+**Global install**
 
 ```sh
 npm i updatedependency -g
@@ -21,7 +27,7 @@ npm i updatedependency -g
 updatedependency
 ```
 
-Project install
+**Project install**
 
 ```sh
 npm i updatedependency -D
